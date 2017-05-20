@@ -14,6 +14,6 @@ public class JavaCode7 extends JavaCode {
         String email = personalInfo.getEmail();
         if (email == null) return;
 
-        mailer.sendMessage(email, message);
+        mailer.sendMessage(client.getPersonalInfo().getEmail(), message);
     }
 }
