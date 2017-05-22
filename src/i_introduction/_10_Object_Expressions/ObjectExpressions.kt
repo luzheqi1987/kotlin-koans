@@ -18,6 +18,6 @@ fun todoTask10(): Nothing = TODO(
 
 fun task10(): List<Int> {
     val arrayList = arrayListOf(1, 5, 2)
-    Collections.sort(arrayList, { p1: Int, p2: Int -> p1 - p2 })
+    Collections.sort(arrayList, { p1: Int, p2: Int -> p2 - p1 })
     return arrayList
 }
